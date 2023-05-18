@@ -33,17 +33,12 @@ Use Closing Operation
  
 ## Program:
 
-``` Python
+``` 
 # Import the necessary packages
-
 ```
 import cv2
 import numpy as np
 ```
-
-
-
-
 # Create the Text using cv2.putText
 ```
 img= np.zeros((350,1400),dtype ='uint8')
@@ -53,27 +48,17 @@ cv2.imshow('created_text',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-
-
 # Create the structuring element
 ```
 struct_ele= np.ones((9,9),np.uint8)
 ```
-
-
-
-
 # Use Opening operation
-
 ```
 opening = cv2.morphologyEx(img,cv2.MORPH_OPEN,struct_ele)
 cv2.imshow('Opening',opening)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-
-
-
 # Use Closing Operation
 ```
 closing = cv2.morphologyEx(img,cv2.MORPH_CLOSE,struct_ele)
@@ -82,12 +67,6 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 ```
-
-
-
-
-
-
 ```
 ## Output:
 
