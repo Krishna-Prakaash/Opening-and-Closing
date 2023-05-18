@@ -33,7 +33,7 @@ Use Closing Operation
  
 ## Program:
 
-``` 
+
 # Import the necessary packages
 ```
 import cv2
