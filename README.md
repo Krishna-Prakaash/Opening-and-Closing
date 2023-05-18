@@ -73,9 +73,9 @@ cv2.destroyAllWindows()
 
 ![OP-01](IMG-01.PNG)
 ### Display the result of Opening
-![OP-01](IMG-01.PNG)
+![OP-01](IMG-02.PNG)
 ### Display the result of Closing
-![OP-01](IMG-01.PNG)
+![OP-01](IMG-03.PNG)
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
